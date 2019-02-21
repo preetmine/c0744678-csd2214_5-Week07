@@ -20,3 +20,34 @@ var bear= {
     daedly: false
 
 };
+bear = JSON.parse(JSON.stringify(bird));
+bear.genus = 'ursus';
+bear;
+bird;
+
+//console
+bird.color = "black"
+bird.genus
+delete bird.color     
+
+var cities = [
+    'belknap',
+    'satnfford',
+    'brampton',
+    'mississauga',
+    'toronto'
+
+
+];
+
+//console
+cities.length
+cities[2]
+cities[cities.length] = "toronto";
+cities[2] = "data"
+cities.push("cop")
+cities.pop();
+
+delete cities[2]
+
+cities.splice(2, 3)
